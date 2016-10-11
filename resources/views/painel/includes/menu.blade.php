@@ -20,7 +20,7 @@
         </li>
         
         <!-- verificar se é o administrador, nesse caso o usuario gleidson -->
-        <!--@if(Auth::user()->user=="gleidson")   descomntar a linha 40 endif -->   
+        
 
         <li>
             <a href="{{url('/painel/genero')}}">Assuntos</a>
@@ -37,7 +37,9 @@
         <li>
             <a href="{{url('/painel/loja')}}">Lojas</a>
         </li>
-        <!--@endif-->
+        <!-- verificar se é o administrador, nesse caso o usuario gleidson colocar na linha 24 -->
+        <!--//"@if(Auth::user()->user=="gleidson") "  descomntar a linha 40 endif -->   
+        <!--//@endif-->
         <li>
             <a href="{{url('logout')}}"> Sair</a>
         </li>
