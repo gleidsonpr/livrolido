@@ -1,0 +1,1 @@
+<div class="preloader" style="display: none"> <i class="fa fa-refresh fa-spin"></i> Enviando os dados...</div>

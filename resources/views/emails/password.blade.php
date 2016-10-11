@@ -1,0 +1,1 @@
+Cique no link para alterar a sua senha: {{ url('password/reset/'.$token) }}
